@@ -1,6 +1,13 @@
-lst = [0] * 10
-lst2 = [1] * 10
+from random import randint
+N = 10000
+lst = [randint(0, N / 1000) for i in range(N)]
+sm = 0
 
-lst = lst + lst2
+# for i in range(N):
+#     sm += lst[i]
 
-print(lst)
+for number in lst:
+    sm += number
+
+print(sm)
+

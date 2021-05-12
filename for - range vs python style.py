@@ -14,11 +14,11 @@ sm = 0
 '''
 
 TESTED_CODE = ''' 
-for i in range(N):
-    sm += lst[i]
+# for i in range(N):
+#     sm += lst[i]
 
-# for number in lst:
-#     sm += number
+for number in lst:
+    sm += number
 '''
 
 print(sum(timeit.repeat(stmt=TESTED_CODE, setup=NOT_REPITED_CODE, number=100))/5)

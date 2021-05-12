@@ -31,5 +31,5 @@ print(sum(timeit.repeat(stmt=TESTED_CODE, setup=NOT_REPITED_CODE, number=1000))/
 min: for - 1.174, min - 0.312
 max: for - 1.155, max - 0.308
 sum: for - 2.135, sum - 0.202
-.count: for - 0.918, sum - 0.176
+.count: for - 0.918, .count - 0.176
 '''

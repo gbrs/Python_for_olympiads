@@ -1,13 +1,12 @@
-from random import randint
-N = 10000
-lst = [randint(0, N / 1000) for i in range(N)]
-sm = 0
+import timeit
 
-# for i in range(N):
-#     sm += lst[i]
+NOT_REPITED_CODE = '''
 
-for number in lst:
-    sm += number
+'''
 
-print(sm)
+TESTED_CODE = '''
 
+'''
+
+# вывод на печать результатов 5 (по умолчанию) измерений number = 100 повторов
+print(timeit.repeat(stmt=TESTED_CODE, setup=NOT_REPITED_CODE, number=100))

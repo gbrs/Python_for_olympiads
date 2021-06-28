@@ -19,5 +19,5 @@ print(sum(timeit.repeat(stmt=TESTED_CODE, setup=NOT_REPITED_CODE, number=1000))/
 
 '''
 +=  : 1.335
-_+_=: 1.324
+= _+_: 1.324
 '''

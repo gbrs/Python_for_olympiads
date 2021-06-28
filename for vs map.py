@@ -1,12 +1,14 @@
 '''
 map - просто ураган по сравнению с for. Почему!? Так не д.б.
-'In addition, the list comprehension executes much faster than the solution using map and lambda.
-This is because calling a lambda function creates a new stack frame
-while the expression in the list comprehension is evaluated without creating a new stack frame' /ван Россум/.
+'In addition, the list comprehension executes much faster
+than the solution using map and lambda. This is because calling a lambda function
+creates a new stack frame while the expression in the list comprehension
+is evaluated without creating a new stack frame' /ван Россум/.
 Поскольку читабельность важна, то часто лист компрехеншн лучше. Он - более питонячий,
 посему он рекомендуется создателями Питона.
 map занимает меньше места - хорош когда нам не нужны все значения сразу.
-Гвидо ван Россум называет map ошибкой и призывает использовать вместо него включения (компрехеншин?)
+Гвидо ван Россум называет map ошибкой
+и призывает использовать вместо него включения (компрехеншин?)
 '''
 
 
